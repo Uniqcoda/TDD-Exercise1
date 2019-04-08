@@ -12,3 +12,7 @@ test('first parameter must be number', function () {
     expect(add('3', 4)).toBe('NaN');
 });
 
+test('second parameter must be number', function () {
+    expect(add(3, '4')).toBe('NaN');
+});
+
