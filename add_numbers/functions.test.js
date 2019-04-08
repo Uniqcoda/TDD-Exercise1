@@ -1,3 +1,5 @@
+// Add two numbers
+
 const add = require('./functions');
 
 test('returns a value', function () {
