@@ -5,7 +5,7 @@ test('returns a value', function () {
 });
 
 test('adds 3 + 4 to equal 7', function () {
-    expect(add(3, 7)).toBe(7);
+    expect(add(3, 4)).toBe(7);
 })
 
 // test('both parameters must be numbers', function () {
