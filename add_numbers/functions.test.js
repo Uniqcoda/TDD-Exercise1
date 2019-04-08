@@ -4,14 +4,11 @@ test('returns a value', function () {
     expect(add(3, 4)).toBeDefined();
 });
 
-// test('returns a number', function () {
-//     expect(add()).toBe();
-// });
+test('adds 3 + 4 to equal 7', function () {
+    expect(add(3, 7)).toBe(7);
+})
 
 // test('both parameters must be numbers', function () {
-//     expect(add()).toBe();
+//     expect(add('3', [5,4])).toBe('both parameters must be of type - number');
 // });
 
-// test('adds 3 + 4 to equal 7', function () {
-//     expect(add()).toBe();
-// })
