@@ -8,11 +8,8 @@ test('adds 3 + 4 to equal 7', function () {
     expect(add(3, 4)).toBe(7);
 });
 
-test('first parameter must be number', function () {
-    expect(add('3', 4)).toBe('NaN');
-});
-
-test('second parameter must be number', function () {
+test('both parameter must be numbers', function () {
     expect(add(3, '4')).toBe('NaN');
 });
+
 
