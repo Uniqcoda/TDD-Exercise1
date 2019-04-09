@@ -1,5 +1,9 @@
-function add(num1, num2, num3) {
-    return num1 + num2 + num3;
+function add() {
+    var s = arguments[0];
+    for (let i = 1; i < arguments.length; i++) {
+        s += arguments[i];
+    }
+    return s;
 };
 
 module.exports = add;
