@@ -1,3 +1,5 @@
+// Add an indefinite amount of numbers
+
 const add = require('./add_infinite');
 
 test('add (3, 4, 2) to equal 9 ', function () {
