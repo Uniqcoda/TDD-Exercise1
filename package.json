@@ -4,7 +4,7 @@
   "description": "This project is to learn best practices in Test Driven Development",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll --verbose --coverage"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Uniqcoda/TDD_Exercise1#readme",
   "devDependencies": {
     "jest": "^24.7.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
   }
 }
