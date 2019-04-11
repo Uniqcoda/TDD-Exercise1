@@ -15,5 +15,5 @@ test('Multiply an indefinite amount of arguments', function () {
 });
 
 test('all parameters must be numbers', function () {
-    expect(multiply(3, 2, true)).toBe('NaN');
+    expect(multiply(3, 2, true)).toBe("all parameters must be numbers");
 });

@@ -11,7 +11,7 @@ test('adds 3 + 4 to equal 7', function () {
 });
 
 test('both parameter must be numbers', function () {
-    expect(add(3, '4')).toBe('NaN');
+    expect(add(3, '4')).toBe("all parameters must be numbers");
 });
 
 

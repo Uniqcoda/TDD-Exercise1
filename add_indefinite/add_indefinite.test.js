@@ -15,5 +15,5 @@ test('add (3, 4, 2, 1) to equal 10 ', function () {
 });
 
 test('all parameters must be numbers', function () {
-    expect(add(3, '4', 5, 3, 6, '3')).toBe('NaN');
+    expect(add(3, '4', 5, 3, 6, '3')).toBe("all parameters must be numbers");
 });

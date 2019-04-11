@@ -11,5 +11,5 @@ test('substracts 10 - 3 to equal 7', function () {
 });
 
 test('both parameter must be numbers', function () {
-    expect(difference(3, '1')).toBe('NaN');
+    expect(difference(3, '1')).toBe("all parameters must be numbers");
 });

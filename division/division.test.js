@@ -6,7 +6,7 @@ expect(divide(15, 5)).toBe(3);
 });
 
 test('both parameter must be numbers', function () {
-    expect(divide(15, '5')).toBe('NaN');
+    expect(divide(15, '5')).toBe("all parameters must be numbers");
 });
 
 test('returns a value', function () {
